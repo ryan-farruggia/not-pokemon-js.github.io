@@ -1,0 +1,6 @@
+probably add descriptions to moves under their titles
+add animations to everything
+give the skill bars more style
+use some kind of pokemon themed background for each page
+add max health and PP for moves
+make a basic battle sequence with choices

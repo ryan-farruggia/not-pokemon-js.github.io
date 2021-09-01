@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    font-size: 150%;
+    margin-top: 50px;
+}
+
+h3{
+    margin:0;
+    text-align:left !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+button {
+    margin-top:10px;
+    height: 50px;
+    width: 100px;
+    background:none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 120%;
+    transition: 200ms all ease;
+    font-weight: bold;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#venusaur{
+    color:rgb(24, 158, 24);
+}
+
+#charizard{
+    color:orangered;
+}
+
+#blastoise{
+    color:dodgerblue;
+}
+
+#maindiv{
+    margin-top:200px;
+}
+#vendiv{
+    margin-top:100px;
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius:5px;
+}
+
+.venmoveone {width: 80%; background-color: #04AA6D;} /* Green */
+.venmovetwo {width: 45%; background-color: #04AA6D;} /* Blue */
+.venmovethree {width: 100%; background-color: #04AA6D;} /* Red */
+.venmovefour {width: 20%; background-color: #a200ff;} /* Dark Grey */
+
+.charmoveone {width: 90%; background-color: #e63516;} /* Green */
+.charmovetwo {width: 95%; background-color: #e63516;} /* Blue */
+.charmovethree {width: 75%; background-color: rgb(2, 177, 200);} /* Red */
+.charmovefour {width: 100%; background-color: #e63516;} /* Dark Grey */
+
+.blastmoveone {width: 60%; background-color: dodgerblue;} /* Green */
+.blastmovetwo {width: 90%; background-color: dodgerblue;} /* Blue */
+.blastmovethree {width: 75%; background-color: rgb(2, 177, 200);} /* Red */
+.blastmovefour {width: 100%; background-color: dodgerblue;} /* Dark Grey */
+
+#special, #status, #attack {
+    height:20px;
+    width:20px;
+}
+
+#vendiv p {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+.gball {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#charizardButton {
+    color: orangered;
+}
+
+#venusaurButton {
+    color: limegreen;
+}
+
+#blastoiseButton {
+    color: deepskyblue;
+}
+
+.myNav {
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+
+.movetype {
+    border-radius: 5px;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.fire {
+    background-color: orangered;
+}
+
+.flying {
+    background-color: deepskyblue;
+}
+
+.poison {
+    background-color: #a200ff;
+}
+
+.grass {
+    background-color: rgb(47, 190, 47);
+}
+
+.water {
+    background-color: dodgerblue;
+}
+
+.ice {
+    background-color: rgba(24, 221, 221, 0.712);
+}
+
+#changepokemon {
+    border: solid black 2px;
+}
+
+.myBtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: rgb(47, 189, 47);
+}
+
+.blue {
+    color: deepskyblue;
+}
+
+.charizard-section {
+    animation-delay: 0.5s;
+    animation-duration: 50ms;
+}
+
+.venusaur-section {
+    animation-delay: 0.6s;
+    animation-duration: 50ms;
+}
+
+.blastoise-section {
+    animation-delay: 0.7s;
+    animation-duration: 50ms;
+}
+
+.choice-delay {
+    animation-delay: 0.85s;
+}
+
+.pokeball {
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    left:15%;
+    position: absolute;
+}
